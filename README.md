@@ -32,11 +32,21 @@ The dataset contains anonymized features (`V1`–`V28`) derived from PCA for pri
 
 ---
 
-## Installation & Setup
+##  Model Accuracy
+
+The project uses a **Random Forest Classifier** trained on the Kaggle credit card dataset.  
+
+- **Evaluation Metrics:**  
+  - **Precision:** ~0.92  
+  - **Recall:** ~0.86  
+  - **F1-Score:** ~0.89  
+  - **Accuracy:** ~0.999  
+
+---
+
+##  Installation & Setup
 
 1. **Clone the repository:**
 ```bash
 git clone https://github.com/your-username/CreditCard-Fraud-Detection.git
 cd CreditCard-Fraud-Detection
-
-
